@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: #1a73e8;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  width: 200px;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

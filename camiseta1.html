@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Camisetas 1 - ecom.roldan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ecom.roldan</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="camisetas1.html">Camisetas 1</a>
+      <a href="camisetas2.html">Camisetas 2</a>
+      <a href="camisetas3.html">Camisetas 3</a>
+      <a href="camisetas4.html">Camisetas 4</a>
+      <a href="camisetas5.html">Camisetas 5</a>
+      <button onclick="viewCart()">🛒 Carrito</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Camisetas 1</h2>
+    <div class="products">
+      <div class="product">
+        <img src="images/camiseta1.jpg" alt="Camiseta 1">
+        <h3>Camiseta Equipo 1</h3>
+        <p>20 €</p>
+        <button onclick="addToCart('Camiseta Equipo 1', 20)">Agregar</button>
+      </div>
+
+      <div class="product">
+        <img src="images/camiseta2.jpg" alt="Camiseta 2">
+        <h3>Camiseta Equipo 2</h3>
+        <p>20 €</p>
+        <button onclick="addToCart('Camiseta Equipo 2', 20)">Agregar</button>
+      </div>
+      <!-- Agrega más productos igual -->
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>
